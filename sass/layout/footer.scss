@@ -5,12 +5,16 @@
 
     @include respond(tab-port){
         padding: 8rem 0;
-
     }
 
     &__logo-box{
         text-align: center;
         margin: 4rem;
+
+        @include respond(tab-port){
+            margin-bottom: 6rem;
+    
+        }
     }
 
     &__logo{
